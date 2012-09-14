@@ -165,6 +165,8 @@ Configure::write('Dispatcher.filters', array(
 	'CacheDispatcher'
 ));
 
+
+
 /**
  * Configures default file logging options
  */
@@ -179,3 +181,19 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+/* Archivo bootstrap de la aplicacion */
+
+App::uses('PhpReader', 'Configure');
+
+Configure::write("DirectorioConfiguracion",'..'.DS.'ConfiguracionIntraweb'.DS);
+
+Configure::config('default', new PhpReader(Configure::read('DirectorioConfiguracion')));
+
+Configure::load('bootstrapintraweb');
+
+
+
+
+
+

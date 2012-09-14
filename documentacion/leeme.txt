@@ -1,0 +1,44 @@
+Preparación inicial de la aplicación
+
+En el archivo de configuración de apache se incluye
+
+<Directory "/Users/agc/Sites/intraweb12/app/webroot">
+ Options Indexes FollowSymlinks MultiViews SymLinksIfOwnerMatch
+AllowOverride all
+Allow from 127.0.0.1
+</Directory>
+
+Alias /intraweb12 "/Users/agc/Sites/intraweb12/app/webroot"
+
+
+En el archivo Config/core.php se descomenta, en la linea 232
+
+date_default_timezone_set('UTC');
+
+
+en php.ini se descomenta
+
+date.timezone ='Europe/Madrid'
+
+El directorio app/tmp y las carpetas que contienen se les da permiso de escritura para todos. Una solución mejor
+es crear un grupo usuarioscakephp darle al grupo permisos de escritura e incluir el usuario con el que corre apache en este grupo
+
+groupadd usuarioscakephp
+usermod -G usuarioscakephp <usuario_existente>
+
+para añadidr un NUEVO usuario a un grupo existente
+
+useradd -G usuarioscakephp <usuario_nuevo>
+
+el password se asigna
+
+passwd <usuario_recien_creado>
+
+
+He copiado el archivo database.php.default a database.php para evitar que de un mensaje de advertencia
+
+En bootstrap se ha especificado la carga de un archivo de configuracion general.ini que se encuentra en la carpeta
+
+ConfiguracionIntraweb
+
+también se ha incluido una clase para leer archivos xml

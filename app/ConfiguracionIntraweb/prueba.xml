@@ -1,0 +1,4 @@
+<paginas>
+    <pagina nombre="principal" plantilla="cuerpopaginaprincipal.html" />
+    <pagina nombre="proyectomision" plantilla="vistaproyectomision"/>
+</paginas>
