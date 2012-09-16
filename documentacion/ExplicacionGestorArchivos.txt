@@ -1,0 +1,11 @@
+GestorArchivos
+
+
+La clase configuración se usa como un archivo central donde se dejan cosas. Luego, para pasar estas variables a la vista
+se usa el metodo pasar
+
+
+
+
+Vista
+

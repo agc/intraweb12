@@ -1,0 +1,64 @@
+BODY {
+	BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; COLOR: #333333; FONT-FAMILY: Verdana,sans-serif; align: left
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+A {
+	COLOR: #333333
+}
+A.nav {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A.navHi {
+	COLOR: #598700; TEXT-DECORATION: none
+}
+TD.nav {
+	PADDING-BOTTOM: 1px
+}
+TD.navTopLevel {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+TD.line {
+	HEIGHT: 1px; BACKGROUND-COLOR: #666666
+}
+TD.lineBright {
+	HEIGHT: 1px; BACKGROUND-COLOR: #cccccc
+}
+.boxTitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; COLOR: #ffffff; PADDING-TOP: 1px; BACKGROUND-COLOR: #666666
+}
+.boxText {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.boxBorder {
+	WIDTH: 1px; BACKGROUND-COLOR: #666666
+}
+.boxLine {
+	HEIGHT: 1px; BACKGROUND-COLOR: #666666
+}
+.EstiloPie {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #FFFFFF;
+}
+.EstiloCajaTitulo {color: #FFEC86}
+.EstiloTextoCajaTitulo {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+}
+
+.EstiloEnlaceCentral {
+	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	COLOR: #333333
+}
+

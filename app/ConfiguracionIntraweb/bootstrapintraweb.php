@@ -16,19 +16,21 @@ Leemos el archivo de configuracion
 define ("DB_LOG","SI"); //el valor es indiferente, lo importante es que esté definido
 
 
-Configure::write("db_log","si");
+Configure::write("db_log","no");
 
-function test($clave,$valor) {
-    return (Configure::read($clave)==$valor);
-}
+
 
 $config = array();
 
 $config["Directorios"]=array(
-        "configuracion"	=>APP.'ConfiguracionIntraweb'
+        "configuracion"	=>APP.'ConfiguracionIntraweb',
+        "avisos"	   =>"/Users/agc/Sites/Intraweb/intraweb-archivos/avisos",
+        "configuraciongestorarchivos"=>APP.'ConfiguracionIntraweb'.DS."gestor_archivos",
+        "descargaarchivos"				=>"/Users/agc/Sites/Intraweb/intraweb-archivos/documentos/"
     );
 
-
+$config["Archivos"]=array(
+    "aliasgestorarchivos"=>APP.'ConfiguracionIntraweb'.DS."gestor_archivos".DS."/"."aliasdirectorios.xml");
 
 $dirconf = Configure::read("DirectorioConfiguracion");
 

@@ -1,0 +1,36 @@
+<div id="nicemenu" style="position: relative;left:-150px;">
+
+        <ul>
+            <!--<li><span class="head_menu"><a href="index.html">Principal</a></span></li>-->
+            <li><span class="head_menu"><a href="exploradorArchivos/list?id=caracteristicascentro">Características del centro</a><!--<img src="arrow.png" width="18" height="15" align="top" class="arrow" />--></span>
+               <!-- <div class="sub_menu">
+					
+                    <a href="exploradorArchivos/list">Tus fotos</a>
+                    <a href="index.html">Your Sets</a>
+                    <a href="index.html">Your Archives</a>
+                    <a href="index.html">Your Tags</a>
+                    <a href="index.html">Your Map</a>
+                    <a href="index.html">Your Favorites</a>
+                    <a href="index.html">Your Stats</a>
+                    <a href="index.html" class="item_line">Recent Activity</a>
+                    <a href="index.html">Comments You've Made</a>
+                    <a href="index.html" class="item_line">Upload Photos</a>
+                    <a href="index.html" class="item_line">Your Account</a>
+                    <a href="index.html">Your Profile</a>
+                    <a href="index.html" class="item_line">FlickrMail</a>
+
+                </div>-->
+            </li>
+            <li><span class="head_menu"><a href="exploradorArchivos/list?id=documentosinstitucionales">Documentos institucionales</a></span>
+               
+            </li>
+            <li><span class="head_menu"><a href="exploradorArchivos/list?id=sistemagestion">Sistema de gestión</a></span>
+               
+            </li>
+            <li><span class="head_menu"><a href="exploradorArchivos/list?id=resultados">Resultados</a></span>
+              
+            </li>
+            
+        </ul>
+
+        </div>

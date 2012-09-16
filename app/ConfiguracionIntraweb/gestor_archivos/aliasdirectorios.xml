@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!-- alias usados en el controlador servirachivos-->
+<configarchivos>
+<!-- reglas para escribir correctamente este archivo atributo ruta y atributo directorio deben ir precedidos por / -->
+<!-- cuidado con los espacios en blanco después y antes de las comillas-->
+<!-- hay un archivo howto-enlaces.txt que explica las diferentes combinaciones de enlaces y su relación con este archivo-->
+<!-- eliminar en el nombre los simbolos html para espacios, acentos, etc %20, por ejemplo -->
+<!-- se permiten acentos en los nombres de los archivos, espacios -->
+
+<!-- la ruta raiz donde se buscan los archivos está definida en configuracion_general -->
+
+
+   <pagina nombre="pruebas" ruta="f:/intraweb-cake/" directorio="/pruebas"/>
+   <pagina nombre="blog"    ruta="f:/intraweb-cake/" directorio="/blog"/>
+
+
+
+
+   <pagina nombre="documentacion" directorio="administracion" >
+
+   </pagina>
+
+   <pagina nombre="varios" directorio="/varios">
+
+   </pagina>
+
+   <pagina nombre="cuadernodelprofesor" directorio="/cuaderno_del_profesor">
+
+
+   </pagina>
+
+   <pagina nombre="resultadosevaluaciones" directorio="/resultadosevaluaciones">
+
+   </pagina>
+
+
+      <!-- Los elementos pagina permiten especificar un alias para el directorio. La ruta se construye
+           mediante la ruta indicada en el elemento raiz y la ruta especificada en el atributo directorio del
+	   elemento pagina -->
+
+   <pagina nombre="calidad" directorio="/calidad">
+
+
+
+   </pagina>
+
+   <pagina nombre="direccion" directorio="/direccion">
+   </pagina>
+   
+   <pagina nombre="direccionpublico" directorio="/direccion/publico">
+   </pagina>
+   
+   <pagina nombre="direccionpga" directorio="/direccion/publico/DI-06-07/PGA 2006-2007">
+   </pagina>
+
+
+   <pagina nombre="jefaturaestudios" directorio="/jefaturaestudios">
+
+   </pagina>
+
+   <pagina nombre="vicedireccion" directorio="/vicedireccion">
+
+   </pagina>
+   <pagina nombre="secretaria" directorio="/secretaria">
+
+   </pagina>
+   <pagina nombre="especificacionescursos" directorio="/jefaturaestudios" />
+
+   <!-- Paginas de departamentos -->
+
+ <!-- Funciona si aquí se pone con acentos y no con %%% -->
+ <!-- En la página vale de las dos maneras -->
+  <pagina nombre="progaleman" directorio="/programaciones/Aleman/programacion">
+
+   </pagina>
+
+   <pagina nombre="progciencias" directorio="/programaciones/Ciencias Naturales y Naturaleza/programacion">
+
+   </pagina>
+
+
+   <pagina nombre="progcienciassociales" directorio="/programaciones/Sociales/programación"/>
+
+
+   <pagina nombre="coordinacionacciontutorial" directorio="/programaciones/coordinacionacciontutorial/programación">
+   </pagina>
+
+   <pagina nombre="progdibujo" directorio="/programaciones/Dibujo/programación">
+   </pagina>
+
+   <pagina nombre="progeconomia" directorio="/programaciones/Economia/programación">
+   </pagina>
+
+   <pagina nombre="progeducacionfisica" directorio="/programaciones/Educacion Fisica/programación">
+   </pagina>
+
+   <pagina nombre="progeuskera" directorio="/programaciones/Euskera/programación">
+   </pagina>
+
+   <pagina nombre="progfilosofia" directorio="/programaciones/Filosofia/programación">
+   </pagina>
+
+   <pagina nombre="progfisicaquimica" directorio="/programaciones/Fisica y Quimica/programación">
+   </pagina>
+
+   <pagina nombre="progfrances" directorio="/programaciones/Frances/programación">
+   </pagina>
+
+   <pagina nombre="proggriego" directorio="/programaciones/Griego/programación">
+   </pagina>
+
+   <pagina nombre="progingles" directorio="/programaciones/Ingles/programación">
+   </pagina>
+
+   <pagina nombre="proglatin" directorio="/programaciones/Latin/programación">
+   </pagina>
+
+   <pagina nombre="proglengua" directorio="/programaciones/Lengua/programación">
+   </pagina>
+
+   <pagina nombre="progmatematicas" directorio="/programaciones/Matematicas/programacion">
+   </pagina>
+
+   <pagina nombre="progmusica" directorio="/programaciones/Musica/programación">
+   </pagina>
+
+   <pagina nombre="progorientacion" directorio="/programaciones/Orientacion/programación">
+   </pagina>
+
+   <pagina nombre="progreligion" directorio="/programaciones/Religion/programación">
+   </pagina>
+
+   <pagina nombre="progtecnologia" directorio="/programaciones/Tecnologia/programación">
+   </pagina>
+
+   <pagina nombre="claustros" directorio="/claustros">
+
+   </pagina>
+
+   <pagina nombre="biblioteca" directorio="/Biblioteca" >
+
+   </pagina>
+
+
+
+   <!-- fin paginas de departamentos -->
+   
+   <pagina nombre="grupos" directorio="/grupos" />
+   <pagina nombre="actasclaustro"  directorio="/Convocatorias_Actas/claustro" />
+   <pagina nombre="actasccp"  directorio="/Convocatorias_Actas/CCP" />
+   <pagina nombre="actasconsejo"  directorio="/Convocatorias_Actas/consejoescolar" />
+   <pagina nombre="resulacademicos" directorio="/Resultados/resultados_academicos"/>
+   <pagina nombre="resulencuestas" directorio="/Resultados/resultados_encuestas"/>
+   <pagina nombre="resulprocesos" directorio="/Resultados/resultados_procesos"/>
+   <pagina nombre="docgestion" directorio="/calidad" />
+   <pagina nombre="caracteristicas del centro" directorio="/caracteristicas del centro" />
+   <pagina nombre="documentos institucionales" directorio="/documentos institucionales" />
+   <pagina nombre="sistema de gestion" directorio="/sistema de gestion" />
+   <pagina nombre="resultados" directorio="/resultados_nuevo" />
+   
+
+	
+
+</configarchivos>
