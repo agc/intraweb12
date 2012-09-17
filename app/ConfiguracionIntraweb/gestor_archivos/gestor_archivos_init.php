@@ -21,11 +21,15 @@
    $_conf["controlador"]    =   "gestorarchivos";
 
    
-    $_conf["home_url"]       =   "http://".$GLOBALS['__SERVER']['HTTP_HOST']."/".WEBROOT_DIR;
+    $_conf["home_url"]       =  $this->webroot; // "http://".$GLOBALS['__SERVER']['HTTP_HOST']."/".WEBROOT_DIR;
 
-    $_conf["pagina_a_volver"] 	   = $_conf["home_url"]."/"."documentos"."/"."ver";
-    $_conf["img_dir"] 			   = $_conf["home_url"]."/".'img'.'/gestorarchivos';
-    $_conf["script_name"]	=  "http://".$GLOBALS['__SERVER']['HTTP_HOST']."/".WEBROOT_DIR."/"."gestorarchivos";
+    $_conf["pagina_a_volver"] 	   = $_conf["home_url"]."documentos";  //."/"."ver";
+
+    //$_conf["img_dir"] 			   = $_conf["home_url"]."/".'img'.'/gestorarchivos';
+
+   $_conf["img_dir"] 			   = $this->webroot.'img'.'/gestorarchivos';
+
+   $_conf["script_name"]	=  "http://".$GLOBALS['__SERVER']['HTTP_HOST']."/".WEBROOT_DIR."/"."gestorarchivos";
 																				//http://localhost/aplicaciones/gestorarchivos
     
    $_conf["script_name"]	=   $_conf["home_url"]."/".$_conf["controlador"];

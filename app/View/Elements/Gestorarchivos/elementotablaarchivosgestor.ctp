@@ -15,7 +15,7 @@ foreach($info_items as $info_item)
 	$allow		    = $info_item['allow'];
 	$link		    = $info_item['link'];
 	$img_mime_type  = $info_item['img_mime_type'];
-	//$s_item		= utf8_decode( $info_item['s_item']);//lo he añadido para evitar el problema de los carácteres españoles
+	//$s_item		= utf8_decode( $info_item['s_item']);//lo he aï¿½adido para evitar el problema de los carï¿½cteres espaï¿½oles
 	$s_item			= $info_item['s_item'];
 	$tamano			= $info_item['tamano'];
 	$tipo			= $info_item['tipo'];

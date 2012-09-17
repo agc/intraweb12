@@ -4,11 +4,11 @@
 //es mas sencillo incluir html en un elemento.
 // Se puede incluir html plano
 // sin necesidad de asignarlo a una variable $out,
-//lo que obliga a ir linea a linea, as� como cambiar el tipo de comillas
+//lo que obliga a ir linea a linea, así como cambiar el tipo de comillas
 
 class GaHelper extends AppHelper
 {
-//Helper usado en la construcci�n de las p�ginas del gestor de archivos
+//Helper usado en la construcción de las páginas del gestor de archivos
 
 
     function header($titulo_barra_navegador,$title,$charset,$lenguaje,$text_dir,$version)
@@ -24,7 +24,7 @@ class GaHelper extends AppHelper
         $out.= "<LINK href='".$this->webroot."css/gestor_archivos/style.css' rel='stylesheet' type='text/css'>\n";
         $out.= "</HEAD>\n<BODY><center>\n<table border='0' width='100%' cellspacing='0' cellpadding='5'><tbody>\n";
         $out.= "<tr><td class='title'>";
-        //falta informaci�n sobre el usuario cuando se requiere login
+        //falta información sobre el usuario cuando se requiere login
         $out.="$title</td></tr></tbody></table>\n\n";
         return $out; //$this->output($out);
     }
@@ -36,7 +36,7 @@ class GaHelper extends AppHelper
         $out.="\n<BR><BR><A HREF='javascript:window.history.back()'> $error_back </A>";
         if($extra!=NULL) $out.= " - ".$extra;
         $out.= "<BR><BR></CENTER>\n";
-        return $this->output($out);
+        return $out;
         //show_footer();
         //exit;
     }
@@ -46,9 +46,9 @@ class GaHelper extends AppHelper
     }
 
     function show_listado($view) {
-        $out=$view->renderElement('elemento_toolbar');
-        $out.=$view->renderElement('elemento_tabla_formulario_archivos');
-        return $this->output($out);
+        $out=$view->element('elemento_toolbar');
+        $out.=$view->element('elemento_tabla_formulario_archivos');
+        return $out;
     }
 
 
@@ -67,7 +67,7 @@ class GaHelper extends AppHelper
     */
     function MostrarElementoToolbarGestor($view){
         $out= $view->element('Gestorarchivos/elementotoolbargestor');
-        return $this->output($out);
+        return $out;
     }
 
     /*
@@ -79,8 +79,8 @@ class GaHelper extends AppHelper
 
 
     function MostrarElementoTablaFormularioArchivosGestor($view){
-        $out= $view->renderElement('gestorarchivos/elementotablaformularioarchivosgestor');
-        return $this->output($out);
+        $out= $view->element('gestorarchivos/elementotablaformularioarchivosgestor');
+        return $out;
     }
 
     function footer($version) {
@@ -88,6 +88,6 @@ class GaHelper extends AppHelper
         $out.="Página Web del Instituto </A> - ";
         $out.= "<A href='/aplicaciones/documentos/ver' target='_blank'>Intraweb</A></SMALL>";
         $out.="</center></BODY>\n</HTML>";
-        return $this->output($out);
+        return $out;
     }
 }?>

@@ -1,4 +1,5 @@
 <?php
+
 class UnificacionComponent extends Component
 {
 

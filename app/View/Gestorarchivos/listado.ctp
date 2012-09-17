@@ -31,10 +31,10 @@
    
 
    
-    //echo $this->Ga->MostrarElementoToolbarGestor($this);
+    echo $this->Ga->MostrarElementoToolbarGestor($this);
     
    
-     //echo $ga->MostrarElementoTablaFormularioArchivosGestor($this);
+     echo $this->Ga->MostrarElementoTablaFormularioArchivosGestor($this);
    
    ?>
 

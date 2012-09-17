@@ -2,7 +2,7 @@
 
 
 /* si se ha establecido que el campo de ordenacion es $valor
-   se mostrará una flecha en la cabecera
+   se mostrarï¿½ una flecha en la cabecera
 */
 
 function mostrarFlecha(&$campo_orden,$valor,$html_imagen) {
@@ -29,7 +29,7 @@ if($srt=="yes") {
 
 	<!-- Cabeceras de la tabla -->
 	<TR><TD colspan="7"><HR></TD></TR> <!-- linea horizontal -->
-	<!--linea de rótulos -->
+	<!--linea de rï¿½tulos -->
 	<TR>
 
 	<TD WIDTH="14%" class="header">
@@ -69,11 +69,11 @@ if($srt=="yes") {
 
 	<?php
 
-	echo $this->renderElement('gestorarchivos/elementotablaarchivosgestor');
+	echo $this->element('gestorarchivos/elementotablaarchivosgestor');
 
 	?>
 
-	<!-- muestra número de items y tamaño total archivos -->
+	<!-- muestra nï¿½mero de items y tamaï¿½o total archivos -->
 
 	<TR>
 	<TD colspan="7"><HR></TD></TR><TR> <!--  otra linea horizontal -->

@@ -26,7 +26,7 @@ $config["Directorios"]=array(
         "configuracion"	=>APP.'ConfiguracionIntraweb',
         "avisos"	   =>"/Users/agc/Sites/Intraweb/intraweb-archivos/avisos",
         "configuraciongestorarchivos"=>APP.'ConfiguracionIntraweb'.DS."gestor_archivos",
-        "descargaarchivos"				=>"/Users/agc/Sites/Intraweb/intraweb-archivos/documentos/"
+        "descargaarchivos"				=>"/Users/agc/Sites/Intraweb/intraweb-archivos/documentos"
     );
 
 $config["Archivos"]=array(

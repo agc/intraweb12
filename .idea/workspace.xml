@@ -5,55 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19bc2fe-e6c4-4b4a-9797-e886a6f956ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/definicion_menu - original-completo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/definicion_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/definicion_menu_alternativo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/.directory" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasdirectorios.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es_mimes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/mimes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/prueba.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/Cajon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/Component/AvisosComponent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/Component/UnificacionComponent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/GestorarchivosController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/NoticiasController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Comun/layoutdocumentos.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Documentos/index.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Documentos/elementodefinicionmenudinamico.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Documentos/elementodefinicionmenudinamico2.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Documentos/elementosliders.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaarchivosgestor.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaformularioarchivosgestor.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotoolbargestor.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/javascript.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/Noticias/elementocajanoticia.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Gestorarchivos/error.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Helper/GaHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Helper/PieHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Layouts/cajalateralnoticias.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Layouts/documentos.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Noticias/listanoticias.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Noticias/prueba.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/gestor_archivos/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/intraweb/menusuperpez.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/intraweb/codigosliders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/intraweb/superfish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentacion/ExplicacionGestorArchivos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentacion/enlaces.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentacion/supertrozos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentacion/trozos.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/__copy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/__cut.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/__paste.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_admin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_archive.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_arrowdown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_arrowup.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_copy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_copy_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_delete.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_delete_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_download.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_download_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_edit_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_home.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_logout.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_move.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_move_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_refresh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_search.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_upload.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/_upload_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/cpp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/dir.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/flash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/html.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/java.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/js.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/midi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/php.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/pl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/real.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/sound.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/spread.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/src.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/tar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/tgz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/video.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/word.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gestorarchivos/zip.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="$PROJECT_DIR$/app/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/routes.php" afterPath="$PROJECT_DIR$/app/Config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ConfiguracionIntraweb/bootstrapintraweb.php" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/bootstrapintraweb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ConfiguracionIntraweb/general.ini" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/general.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/DocumentosController.php" afterPath="$PROJECT_DIR$/app/Controller/DocumentosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/.htaccess" afterPath="$PROJECT_DIR$/app/webroot/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Cajon.php" afterPath="$PROJECT_DIR$/app/Controller/Cajon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php" afterPath="$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Component/UnificacionComponent.php" afterPath="$PROJECT_DIR$/app/Controller/Component/UnificacionComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/GestorarchivosController.php" afterPath="$PROJECT_DIR$/app/Controller/GestorarchivosController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaarchivosgestor.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaarchivosgestor.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaformularioarchivosgestor.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaformularioarchivosgestor.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp" afterPath="$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Helper/GaHelper.php" afterPath="$PROJECT_DIR$/app/View/Helper/GaHelper.php" />
     </list>
     <ignored path="intraweb12.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,79 +91,7 @@
       <file leaf-file-name="GestorarchivosController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/GestorarchivosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="41" selection-start="2078" selection-end="2078" vertical-scroll-proportion="-19.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gestor_archivos_init.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="28" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-0.6785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Gestorarchivos/error.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cajon.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Controller/Cajon.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="51" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.5524403">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FuncionesGestorArchivosComponent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="-7.464286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AvisosComponent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/Component/AvisosComponent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aliasdirectorios.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasdirectorios.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="0" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mimes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/mimes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.857143">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="59" selection-start="1112" selection-end="1112" vertical-scroll-proportion="-16.285715">
+            <state line="348" column="0" selection-start="13662" selection-end="13662" vertical-scroll-proportion="-8.592592">
               <folding />
             </state>
           </provider>
@@ -157,7 +100,72 @@
       <file leaf-file-name="listado.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="4" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
+            <state line="36" column="4" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GaHelper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Helper/GaHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="65" selection-start="3051" selection-end="3051" vertical-scroll-proportion="-23.75">
+              <folding>
+                <element signature="e#6#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elementotablaformularioarchivosgestor.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaformularioarchivosgestor.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="4" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elementotablaarchivosgestor.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaarchivosgestor.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elementotoolbargestor.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotoolbargestor.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cajon.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/Cajon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="23" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-5.740741">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gestor_archivos_init.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="37" selection-start="69" selection-end="69" vertical-scroll-proportion="25.535715">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="151" column="30" selection-start="5417" selection-end="5417" vertical-scroll-proportion="0.78586066">
               <folding />
             </state>
           </provider>
@@ -176,29 +184,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/prueba.php" />
-        <option value="$PROJECT_DIR$/app/Controller/Cajon.php" />
-        <option value="$PROJECT_DIR$/documentacion/ExplicacionGestorArchivos.txt" />
-        <option value="$PROJECT_DIR$/app/Controller/Component/ConfiguracionComponent.php" />
-        <option value="$PROJECT_DIR$/app/Controller/Component/UnificacionComponent.php" />
-        <option value="$PROJECT_DIR$/app/View/Helper/GaHelper.php" />
-        <option value="$PROJECT_DIR$/app/Config/core.php" />
         <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasservirarchivos.xml" />
-        <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/bootstrapintraweb.php" />
         <option value="$PROJECT_DIR$/app/View/Gestorarchivos/error.thtml" />
         <option value="$PROJECT_DIR$/app/View/Gestorarchivos/error.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp" />
-        <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php" />
+        <option value="$PROJECT_DIR$/app/Controller/Component/UnificacionComponent.php" />
+        <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/bootstrapintraweb.php" />
+        <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasdirectorios.xml" />
         <option value="$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php" />
+        <option value="$PROJECT_DIR$/app/Controller/Cajon.php" />
+        <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php" />
+        <option value="$PROJECT_DIR$/app/Config/core.php" />
+        <option value="$PROJECT_DIR$/app/View/Helper/GaHelper.php" />
+        <option value="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaarchivosgestor.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/GestorarchivosController.php" />
+        <option value="$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaformularioarchivosgestor.ctp" />
         <option value="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="27" />
+    <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="1174" />
   </component>
@@ -228,24 +235,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="intraweb12">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app/Controller">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,20 +263,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="documentacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -307,54 +282,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestor_archivos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,69 +387,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Documentos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
+              <option name="myItemId" value="Elements" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
+              <option name="myItemId" value="Gestorarchivos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,22 +435,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intraweb12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="intraweb12">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="app/Controller">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -593,16 +462,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.general" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intraweb" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/webroot/img" />
       <recent name="$PROJECT_DIR$/app/View/Gestorarchivos" />
       <recent name="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos" />
       <recent name="$PROJECT_DIR$/app/View/Elements" />
       <recent name="$PROJECT_DIR$/app/webroot/css" />
-      <recent name="$PROJECT_DIR$/app/ConfiguracionIntraweb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Model" />
@@ -622,7 +491,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -650,6 +519,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="a19bc2fe-e6c4-4b4a-9797-e886a6f956ed" name="Default" comment="" />
       <created>1347569887930</created>
       <updated>1347569887930</updated>
     </task>
@@ -676,15 +546,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="27" width="1920" height="1174" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953465" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2054429" sideWeight="0.34188035" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2054429" sideWeight="0.651472" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20757738" sideWeight="0.651472" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -693,9 +562,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -751,9 +621,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Controller/Component/AvisosComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/DocumentosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.071428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/Component/UnificacionComponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="31.285715">
+        <state line="45" column="5" selection-start="497" selection-end="982" vertical-scroll-proportion="-29.535715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasdirectorios.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="81" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="293" selection-end="293" vertical-scroll-proportion="-7.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/bootstrapintraweb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="97" selection-start="899" selection-end="899" vertical-scroll-proportion="-16.285715">
           <folding />
         </state>
       </provider>
@@ -765,102 +670,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Helper/GaHelper.php">
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaarchivosgestor.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="288" selection-end="288" vertical-scroll-proportion="24.5">
-          <folding>
-            <element signature="e#6#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="31" selection-start="1155" selection-end="1155" vertical-scroll-proportion="-10.857142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/bootstrapintraweb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="100" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.5336008">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es_mimes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.857142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasdirectorios.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="0" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/Component/AvisosComponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="-7.464286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Gestorarchivos/error.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="28" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/mimes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="59" selection-start="1112" selection-end="1112" vertical-scroll-proportion="-16.285715">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/GestorarchivosController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="41" selection-start="2078" selection-end="2078" vertical-scroll-proportion="-19.0">
+        <state line="348" column="0" selection-start="13662" selection-end="13662" vertical-scroll-proportion="-8.592592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Gestorarchivos/listado.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="4" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Helper/GaHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="65" selection-start="3051" selection-end="3051" vertical-scroll-proportion="-23.75">
+          <folding>
+            <element signature="e#6#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/Gestorarchivos/elementotablaformularioarchivosgestor.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="4" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="31" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.3114754">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/Cajon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="51" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.5524403">
+        <state line="72" column="23" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-5.740741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/gestor_archivos_init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="37" selection-start="69" selection-end="69" vertical-scroll-proportion="25.535715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/es.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="30" selection-start="5417" selection-end="5417" vertical-scroll-proportion="0.78586066">
           <folding />
         </state>
       </provider>

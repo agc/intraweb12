@@ -285,6 +285,9 @@ se le pasa la ruta real  a home_dir, no el alias*/
 
             }
         }
+
+       //FIN IF
+
         $this->set('info_items', $info_items);
         $this->render('listado', null);
 
