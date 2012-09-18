@@ -390,9 +390,9 @@ se le pasa la ruta real  a home_dir, no el alias*/
                 $ruta_relativa=$dir['directorio'];
 
                 if ($dir['ruta']!=null) $dirbase=$dir['ruta'];
-
-                //return   utf8_decode($dirbase.$ruta_relativa);
-                return   $dirbase.$ruta_relativa;
+                //TODO si el archivo xml de alias tiene encoding ISO es necesario
+                return   utf8_decode($dirbase.$ruta_relativa);
+               // return   $dirbase.$ruta_relativa;
             }
 
         }

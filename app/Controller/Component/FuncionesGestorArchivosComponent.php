@@ -106,6 +106,7 @@ class FuncionesGestorArchivosComponent extends Component {
     }
 
     function make_link_download($opciones,$_dir,$_item) {
+
         $link=$opciones['script_servir_archivo']."/?pagina=".$opciones['pagina']."&documento=/".$_dir."/".$_item;
         return $link;
     }

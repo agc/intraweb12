@@ -6,6 +6,7 @@ class DocumentosController extends AppController
 {
 
     public $helpers=array('Pie');
+    public $components=array('ForceDownload');
 
     private  function test($clave,$valor) {
         return (Configure::read($clave)==$valor);
@@ -77,11 +78,100 @@ class DocumentosController extends AppController
 
        $this->set('columnalateral', $this->requestAction('/noticias/listado/listanoticias',array('return')));
 
-       //$this->render("index");
+       $this->render("index_nuevo");
 
 
 
 
+    }
+
+    public function servirarchivo($pagina=null,$documento=null) {
+
+        if (!isset($documento) && !isset($pagina)) {
+            if (array_key_exists('documento',$this->params['url'])) {
+                $documento=$this->params['url']['documento'];
+            }
+            else {
+                $documento=null;
+            }
+            if (array_key_exists('pagina',$this->params['url'])) {
+                $pagina=$this->params['url']['pagina'];
+            }
+            else {
+                $pagina=null;
+            }
+        }
+        if (isset($this->namedArgs['pagina']))
+        {
+            $pagina = $this->namedArgs['pagina'];
+        }
+        if (isset($this->namedArgs['documento']))
+        {
+            $documento = $this->namedArgs['documento'];
+        }
+
+        $ruta=$this->_obtenerRutaArchivo($documento,$pagina);
+
+        $ruta=$this->_arreglarNombre($ruta);
+
+        $this->ForceDownload->forceDownload($ruta);
+        exit();
+    }
+
+    private function _obtenerRutaArchivo($documento,$pagina="") {
+
+        $definicionarchivos= simplexml_load_file(Configure::read("Archivos.aliasgestorarchivos"));
+
+        $dirbase=Configure::read("Directorios.descargaarchivos");
+        /* no se ha definido una p�gina, el documento contiene la ruta completa*/
+        if ($pagina=="" || $pagina== null){
+            foreach($definicionarchivos->documento as $defarchivo){
+                if($documento==(string)$defarchivo['nombre'])
+                    // return utf8_decode($dirbase.(string)$defarchivo['ruta']);
+                   return $dirbase.(string)$defarchivo['ruta'];
+            }
+            //return utf8_decode($dirbase.(string)$documento);
+            return $dirbase.(string)$documento;
+
+        }else
+        {
+            /* pagina no es un alias sino el directorio */
+            $dirpagina=$pagina;
+
+            foreach($definicionarchivos->pagina as $pag){
+
+                //encuentra la p�gina
+                //aqu� hab�a (string)
+                if ($pag['nombre']==$pagina){
+                    $dirpagina=utf8_decode($pag['directorio']);
+                    //encuentra el documento, un alias
+                    foreach($pag->documento as $defarchivo){
+
+                        if($documento==(string)$defarchivo['nombre'])
+                            //return utf8_decode($dirbase.$dirpagina.(string)$defarchivo['ruta']);
+                            return $dirbase.$dirpagina.utf8_decode((string)$defarchivo['ruta']);
+                    }
+                }
+
+
+            }
+            //no hay alias para el documento, documento es la ruta
+            //return utf8_decode($dirbase.$dirpagina.$documento);
+            //los espacios funcionan en iexplorer no en mozilla
+            return $dirbase.$dirpagina.(string)$documento ;
+            //return utf8_decode($dirbase.$dirpagina.(string)$documento) ;
+            //return htmlentities($dirbase.$dirpagina.$documento);
+        }
+        //Nunca se llega aqu�, porque si no existe el alias, se considera como  la ruta real
+        return "error imprevisto";
+
+    }
+
+    function _arreglarNombre($ruta){
+        //$salida= utf8_decode($ruta);
+        $salida=$ruta;
+
+        return $salida;
     }
 
 

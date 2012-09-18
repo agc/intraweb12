@@ -1,14 +1,13 @@
-<?xml version="1.0"  encoding="ISO-8859-1"?>
-
-        <!-- alias usados en el controlador servirachivos-->
+<?xml version="1.0" ?>
+<!-- alias usados en el controlador servirachivos-->
 <configarchivos>
 <!-- reglas para escribir correctamente este archivo atributo ruta y atributo directorio deben ir precedidos por / -->
-<!-- cuidado con los espacios en blanco despu�s y antes de las comillas-->
-<!-- hay un archivo howto-enlaces.txt que explica las diferentes combinaciones de enlaces y su relaci�n con este archivo-->
+<!-- cuidado con los espacios en blanco después y antes de las comillas-->
+<!-- hay un archivo howto-enlaces.txt que explica las diferentes combinaciones de enlaces y su relación con este archivo-->
 <!-- eliminar en el nombre los simbolos html para espacios, acentos, etc %20, por ejemplo -->
 <!-- se permiten acentos en los nombres de los archivos, espacios -->
 
-<!-- la ruta raiz donde se buscan los archivos est� definida en configuracion_general -->
+<!-- la ruta raiz donde se buscan los archivos está definida en configuracion_general -->
 
 
    <pagina nombre="pruebas" ruta="f:/intraweb-cake/" directorio="/pruebas"/>
@@ -69,8 +68,8 @@
 
    <!-- Paginas de departamentos -->
 
- <!-- Funciona si aqu� se pone con acentos y no con %%% -->
- <!-- En la p�gina vale de las dos maneras -->
+ <!-- Funciona si aquí se pone con acentos y no con %%% -->
+ <!-- En la página vale de las dos maneras -->
   <pagina nombre="progaleman" directorio="/programaciones/Aleman/programacion">
 
    </pagina>
@@ -80,58 +79,58 @@
    </pagina>
 
 
-   <pagina nombre="progcienciassociales" directorio="/programaciones/Sociales/programaci�n"/>
+   <pagina nombre="progcienciassociales" directorio="/programaciones/Sociales/programación"/>
 
 
-   <pagina nombre="coordinacionacciontutorial" directorio="/programaciones/coordinacionacciontutorial/programaci�n">
+   <pagina nombre="coordinacionacciontutorial" directorio="/programaciones/coordinacionacciontutorial/programación">
    </pagina>
 
-   <pagina nombre="progdibujo" directorio="/programaciones/Dibujo/programaci�n">
+   <pagina nombre="progdibujo" directorio="/programaciones/Dibujo/programación">
    </pagina>
 
-   <pagina nombre="progeconomia" directorio="/programaciones/Economia/programaci�n">
+   <pagina nombre="progeconomia" directorio="/programaciones/Economia/programación">
    </pagina>
 
-   <pagina nombre="progeducacionfisica" directorio="/programaciones/Educacion Fisica/programaci�n">
+   <pagina nombre="progeducacionfisica" directorio="/programaciones/Educacion Fisica/programación">
    </pagina>
 
-   <pagina nombre="progeuskera" directorio="/programaciones/Euskera/programaci�n">
+   <pagina nombre="progeuskera" directorio="/programaciones/Euskera/programación">
    </pagina>
 
-   <pagina nombre="progfilosofia" directorio="/programaciones/Filosofia/programaci�n">
+   <pagina nombre="progfilosofia" directorio="/programaciones/Filosofia/programación">
    </pagina>
 
-   <pagina nombre="progfisicaquimica" directorio="/programaciones/Fisica y Quimica/programaci�n">
+   <pagina nombre="progfisicaquimica" directorio="/programaciones/Fisica y Quimica/programación">
    </pagina>
 
-   <pagina nombre="progfrances" directorio="/programaciones/Frances/programaci�n">
+   <pagina nombre="progfrances" directorio="/programaciones/Frances/programación">
    </pagina>
 
-   <pagina nombre="proggriego" directorio="/programaciones/Griego/programaci�n">
+   <pagina nombre="proggriego" directorio="/programaciones/Griego/programación">
    </pagina>
 
-   <pagina nombre="progingles" directorio="/programaciones/Ingles/programaci�n">
+   <pagina nombre="progingles" directorio="/programaciones/Ingles/programación">
    </pagina>
 
-   <pagina nombre="proglatin" directorio="/programaciones/Latin/programaci�n">
+   <pagina nombre="proglatin" directorio="/programaciones/Latin/programación">
    </pagina>
 
-   <pagina nombre="proglengua" directorio="/programaciones/Lengua/programaci�n">
+   <pagina nombre="proglengua" directorio="/programaciones/Lengua/programación">
    </pagina>
 
-   <pagina nombre="progmatematicas" directorio="/programaciones/Matematicas/programación">
+   <pagina nombre="progmatematicas" directorio="/programaciones/Matematicas/programacion">
    </pagina>
 
-   <pagina nombre="progmusica" directorio="/programaciones/Musica/programaci�n">
+   <pagina nombre="progmusica" directorio="/programaciones/Musica/programación">
    </pagina>
 
-   <pagina nombre="progorientacion" directorio="/programaciones/Orientacion/programaci�n">
+   <pagina nombre="progorientacion" directorio="/programaciones/Orientacion/programación">
    </pagina>
 
-   <pagina nombre="progreligion" directorio="/programaciones/Religion/programaci�n">
+   <pagina nombre="progreligion" directorio="/programaciones/Religion/programación">
    </pagina>
 
-   <pagina nombre="progtecnologia" directorio="/programaciones/Tecnologia/programaci�n">
+   <pagina nombre="progtecnologia" directorio="/programaciones/Tecnologia/programación">
    </pagina>
 
    <pagina nombre="claustros" directorio="/claustros">
