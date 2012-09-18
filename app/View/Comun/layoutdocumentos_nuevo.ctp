@@ -23,7 +23,9 @@ body {
 
 #header {
     padding:20px;
-    //background:#fdd;
+    background:#fdd;
+    margin-left:100px;
+
 }
 #content-1 {
     float:left;
@@ -38,7 +40,7 @@ body {
 }
 #content-2-1 {
     float:left;
-    width:400px;
+    width:550px;
     padding:5px;
     margin-left:-70px;
    //  background:#ddf;
@@ -80,9 +82,9 @@ body {
     <div id="header"><?php echo $this->fetch('menuprincipal'); ?></div>
     <div id="main">
         <div id="content-1"><?php echo $this->fetch('sliders'); ?></div>
-        <div id="content-2">
-            <div id="content-2-1"><?php echo $this->fetch('content');?></div>
-            <div id="content-2-2"><?php echo $columnalateral; ?> </div>
+        <div id="content-2" >
+            <div id="content-2-1" style="border-style:solid; border-width:1px;"><?php echo $this->fetch('content');?></div>
+            <div id="content-2-2" style="border-style:solid; border-width:1px;"><?php echo $columnalateral; ?> </div>
         </div>
     </div>
     <div id="footer"><?php echo $this->Pie->mostrar(); ?></div>

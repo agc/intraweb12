@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19bc2fe-e6c4-4b4a-9797-e886a6f956ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/aliasdirectorios_enutf8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/Component/ForceDownloadComponent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/ServirArchivoController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Documentos/index_nuevo.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/jquery-1.8.1-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/core.php" afterPath="$PROJECT_DIR$/app/Config/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasdirectorios.xml" afterPath="$PROJECT_DIR$/app/ConfiguracionIntraweb/gestor_archivos/aliasdirectorios.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php" afterPath="$PROJECT_DIR$/app/Controller/Component/FuncionesGestorArchivosComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/DocumentosController.php" afterPath="$PROJECT_DIR$/app/Controller/DocumentosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/GestorarchivosController.php" afterPath="$PROJECT_DIR$/app/Controller/GestorarchivosController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp" afterPath="$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Documentos/index_nuevo.ctp" afterPath="$PROJECT_DIR$/app/View/Documentos/index_nuevo.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/jMenu/jMenu.jquery.css" afterPath="$PROJECT_DIR$/app/webroot/css/jMenu/jMenu.jquery.css" />
     </list>
     <ignored path="intraweb12.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,16 +31,16 @@
       <file leaf-file-name="index_nuevo.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Documentos/index_nuevo.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="5" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elementojMenu.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="elementojMenu.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Elements/Documentos/elementojMenu.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="39" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.7407407">
+            <state line="61" column="85" selection-start="1664" selection-end="1664" vertical-scroll-proportion="-21.072727">
               <folding />
             </state>
           </provider>
@@ -57,16 +49,16 @@
       <file leaf-file-name="layoutdocumentos_nuevo.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="6" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
+            <state line="42" column="12" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jMenu.jquery.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jMenu.jquery.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/jMenu/jMenu.jquery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="13" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
+            <state line="30" column="17" selection-start="404" selection-end="404" vertical-scroll-proportion="0.5555556">
               <folding />
             </state>
           </provider>
@@ -97,10 +89,10 @@
         <option value="$PROJECT_DIR$/app/Controller/DocumentosController.php" />
         <option value="$PROJECT_DIR$/app/webroot/js/jquery-1.8.1-min.js" />
         <option value="$PROJECT_DIR$/app/Config/core.php" />
-        <option value="$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp" />
-        <option value="$PROJECT_DIR$/app/webroot/css/jMenu/jMenu.jquery.css" />
         <option value="$PROJECT_DIR$/app/View/Documentos/index_nuevo.ctp" />
         <option value="$PROJECT_DIR$/app/View/Elements/Documentos/elementojMenu.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/css/jMenu/jMenu.jquery.css" />
       </list>
     </option>
   </component>
@@ -769,30 +761,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="6" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/jMenu/jMenu.jquery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="13" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Documentos/index_nuevo.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Comun/layoutdocumentos_nuevo.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="12" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Elements/Documentos/elementojMenu.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="39" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.7407407">
+        <state line="61" column="85" selection-start="1664" selection-end="1664" vertical-scroll-proportion="-21.072727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/jMenu/jMenu.jquery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="17" selection-start="404" selection-end="404" vertical-scroll-proportion="0.5555556">
           <folding />
         </state>
       </provider>

@@ -1,15 +1,18 @@
 
 #jMenu {
-	display:table;
+	display:block;
 	margin:0;
 	padding:0;
     z-index: 9999;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 2px;
     position: absolute;
     top:0;
     right:0;
-    left:130px;
+    left:150px;
+
+
+
 
 }
 
@@ -20,12 +23,12 @@
 	display:table-cell;
 	//background-color:#322f32;
     background-color:#C3D9FF;
-	margin:0;
-	//float:left;
+	margin:0px;
+	/*float:left;*/
 
 }
 	#jMenu li a {
-		padding:10px;
+		padding:5px;
 		display:block;
 		background-color: transparent;
 		color:#36393D;
@@ -48,7 +51,7 @@
         background-color:#C3D9FF;
 		display:block;
 		border-bottom:1px solid #484548;
-		padding:0
+		padding:0px;
 	}
 	#jMenu li ul li.arrow {
 		background:#C3D9FF url('../arrow_down.png') no-repeat center center;

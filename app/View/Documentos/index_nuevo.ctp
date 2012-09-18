@@ -1,7 +1,9 @@
 <?php
 $this->extend('/Comun/layoutdocumentos_nuevo');
 $this->start('menuprincipal');
+
     echo $this->element('Documentos/elementojMenu');
+
 $this->end();
 
 $this->start('sliders');
@@ -44,6 +46,7 @@ $(document).ready(function(){
 </script>
 
            <div style="margin-top:30px;" >
+           <?php //echo $this->element('Documentos/elementojMenu');?>
           <img src="<?php echo Helper::url('/').'img/intraweb/edificio-insti-mosaico-optima.jpg' ?>" width="550px">
 
            <p>&nbsp;</p>

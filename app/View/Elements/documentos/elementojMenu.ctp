@@ -1,6 +1,6 @@
-<div>
+
  <ul id="jMenu">
- 	<li class="col_1"><a class="fNiv">Category 1</a>
+ 	<li class="col_1"><a class="fNiv">Category grande 1</a>
  		<ul>
  			<li class="arrow"></li>
  			<li><a>Category 1.2</a>
@@ -59,7 +59,7 @@
  	</li>
 
 
- 	<li class="col_2"><a class="fNiv">Category 2</a>
+ 	<li class="col_2"><a class="fNiv">Category &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</a>
  		<ul>
  			<li class="arrow"></li>
  			<li><a>Category 2.2</a>
@@ -163,5 +163,4 @@
  		</ul>
  	</li>
  </ul>
-</div>
- <div class="clr"></div>
+
