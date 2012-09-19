@@ -7,74 +7,27 @@
           echo $this->fetch('css');
      ?>
 
-<style type="text/css" media="screen, print, projection">
-html,
-body {
-	margin:0;
-	padding:0;
-	color:#000;
-	background:#fff;
-}
-#body {
-    width:1000px;
-    margin:0 auto;
-    //background:#ddd;
-}
 
-#header {
-    padding:20px;
-    background:#fdd;
-    margin-left:100px;
-
-}
-#content-1 {
-    float:left;
-    width:120px;
-    padding:50px;
-   // background:#bfb;
-}
-
-#content-2 {
-    float:right;
-    width:720px;
-}
-#content-2-1 {
-    float:left;
-    width:550px;
-    padding:5px;
-    margin-left:-70px;
-   //  background:#ddf;
-}
-#content-2-2 {
-    float:right;
-    width:200px;
-    padding:10px;
-    //background:#dff;
-}
-#footer {
-    clear:both;
-    padding:10px;
-    background:#ff9;
-}
-
-
-
-
-
-
-
-#content-2 {
-    float:right;
-    width:720px;
-}
-
-
-
-</style>
 
 <title>
 <?php echo $title_for_layout?>
 </title>
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+
+   $('#example2').hoverAccordion({
+                   keepHeight:true,
+                   activateItem: 1,
+                   speed: 400
+               });
+    $('#example2').children('li:first').addClass('firstitem');
+    $('#example2').children('li:last').addClass('lastitem');
+});
+</script>
+
 </head>
 <body>
 

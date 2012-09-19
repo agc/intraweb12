@@ -1,0 +1,87 @@
+/* Styles for Example #2 */
+#example2 {
+    margin:0;
+    padding:0;
+    width:300px;
+    list-style-type:none;
+     background-color:#ffffff;
+    color:#000000;
+    line-height:120%;
+    height:500px;
+}
+
+#example2 a.slider {
+    display:block;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+#example2 ul {
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+
+#example2 li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+#example2 li a.slider {
+    width:285px;
+    padding:5px 0 0 15px;
+    display:block;
+    color:#000000;
+    background-image:url(ha-header.jpg);
+    height:25px;
+}
+
+
+
+#example2 li a.slider.closed {
+    color:#000000 !important;
+    background-image:url(ha-header.jpg) !important;
+}
+
+#example2 li.firstitem a.slider.closed {
+    color:#000000 !important;
+    background-image:url(ha-header-first.jpg) !important;
+}
+
+#example2 li.lastitem a.slider.closed {
+    color:#000000 !important;
+    background-image:url(ha-header-last.jpg) !important;
+}
+
+#example2 li li {
+    border-left:1px solid #E5E5E5;
+    border-right:1px solid #E5E5E5;
+    padding:0 15px 0 15px;
+    height:375px;
+}
+
+#example2 li a.slider.opened {
+    background-image:url(ha-header-active.jpg);
+    color:#FFFFFF;
+}
+
+#example2 li.firstitem a.slider.opened {
+    background-image:url(ha-header-first-active.jpg);
+    color:#FFFFFF;
+}
+
+#example2 li.lastitem li {
+    margin-bottom:-4px;
+}
+
+#example2 li.lastitem ul {
+    background-image:url(ha-footer.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding-bottom:4px;
+}
+
+.dentroslider {
+    padding-top: 5px;
+}

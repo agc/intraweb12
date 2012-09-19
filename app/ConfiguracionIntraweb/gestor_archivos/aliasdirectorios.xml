@@ -122,7 +122,7 @@
    <pagina nombre="progmatematicas" directorio="/programaciones/Matematicas/programación">
    </pagina>
 
-   <pagina nombre="progmusica" directorio="/programaciones/Musica/programaci�n">
+   <pagina nombre="progmusica" directorio="/programaciones/Musica/programación">
    </pagina>
 
    <pagina nombre="progorientacion" directorio="/programaciones/Orientacion/programaci�n">
@@ -154,6 +154,7 @@
    <pagina nombre="resulencuestas" directorio="/Resultados/resultados_encuestas"/>
    <pagina nombre="resulprocesos" directorio="/Resultados/resultados_procesos"/>
    <pagina nombre="docgestion" directorio="/calidad" />
+
    <pagina nombre="caracteristicas del centro" directorio="/caracteristicas del centro" />
    <pagina nombre="documentos institucionales" directorio="/documentos institucionales" />
    <pagina nombre="sistema de gestion" directorio="/sistema de gestion" />

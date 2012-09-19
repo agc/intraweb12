@@ -7,6 +7,7 @@ class DocumentosController extends AppController
 
     public $helpers=array('Pie');
     public $components=array('ForceDownload');
+    public $layout=null;
 
     private  function test($clave,$valor) {
         return (Configure::read($clave)==$valor);
@@ -28,7 +29,7 @@ class DocumentosController extends AppController
 
     function ver($pagina=null){
 
-        $this->layout="documentos";
+        //$this->layout="documentos";
         $this->pageTitle = Configure::read("General.titulopaginaprincipal");
         $this->set("eliminarcolumna","no");
 
@@ -60,6 +61,7 @@ class DocumentosController extends AppController
 
         // se elimina porque index extiend un Comun
         // $this->layout="documentos";
+        $this->layout=null;
 
         $this->set("title_for_layout",Configure::read("Sitio.TituloPaginaPrincipal"));
 
@@ -69,9 +71,8 @@ class DocumentosController extends AppController
 
         //Lectura del menu
 
-        $base=Configure::read('Directorios.configuracion');
-        require($base.DS.'definicion_menu.php');
-        $this->set("definicionmenu",$definicion); //no se pueden mandar arrays
+
+
 
 
         //menu pasa a documentos.ctp que lo envia como variable al elemento de menu
