@@ -20,8 +20,8 @@
 
 -->
  <ul id="nav">
-     	<li class="current"><a href="gestorarchivos/ver/caracteristicas del centro" title="Caracteristicas">Características del centro</a></li>
-     	<li><a href="gestorarchivos/ver/documentos institucionales" title="Documentos">Documentos Institucionales</a></li>
-     	<li><a href="gestorarchivos/ver/sistema de gestion" title="Gestion">Sistema de gestión</a></li>
-     	<li><a href="gestorarchivos/ver/resultados" title="Resultados">Resultados</a></li>
+     	<li class="current"><a href="/<?php echo $nombreaplicacion;?>/gestorarchivos/ver/caracteristicas del centro" title="Caracteristicas">Características del centro</a></li>
+     	<li><a href="/<?php echo $nombreaplicacion;?>/gestorarchivos/ver/documentos institucionales" title="Documentos">Documentos Institucionales</a></li>
+     	<li><a href="/<?php echo $nombreaplicacion;?>/gestorarchivos/ver/sistema de gestion" title="Gestion">Sistema de gestión</a></li>
+     	<li><a href="/<?php echo $nombreaplicacion;?>/gestorarchivos/ver/resultados" title="Resultados">Resultados</a></li>
   </ul>

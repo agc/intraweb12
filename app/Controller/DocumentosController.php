@@ -61,6 +61,8 @@ class DocumentosController extends AppController
 
         // se elimina porque index extiend un Comun
         // $this->layout="documentos";
+
+
         $this->layout=null;
 
         $this->set("title_for_layout",Configure::read("Sitio.TituloPaginaPrincipal"));
@@ -79,7 +81,7 @@ class DocumentosController extends AppController
 
        $this->set('columnalateral', $this->requestAction('/noticias/listado/listanoticias',array('return')));
 
-       $this->render("index_nuevo");
+
 
 
 
@@ -111,6 +113,8 @@ class DocumentosController extends AppController
             $documento = $this->namedArgs['documento'];
         }
 
+
+
         $ruta=$this->_obtenerRutaArchivo($documento,$pagina);
 
         $ruta=$this->_arreglarNombre($ruta);
@@ -119,12 +123,23 @@ class DocumentosController extends AppController
         exit();
     }
 
+    //pagina describe un directorio con un nombre(alias) y con un directorio(ruta)
+    //documento es el nombre del archivo
+
     private function _obtenerRutaArchivo($documento,$pagina="") {
 
         $definicionarchivos= simplexml_load_file(Configure::read("Archivos.aliasgestorarchivos"));
 
         $dirbase=Configure::read("Directorios.descargaarchivos");
         /* no se ha definido una p�gina, el documento contiene la ruta completa*/
+
+        //No hay documento, solo pagina hay que sacar el directorio y el nombre del archivo
+        if ($documento=="" || $documento==null){
+            $pag=substr($pagina,0,stripos($pagina,"/"));
+            $doc=substr($pagina,stripos($pagina,"/"),strlen($pagina));
+            $pagina=$pag;
+            $documento=$doc;
+        }
         if ($pagina=="" || $pagina== null){
             foreach($definicionarchivos->documento as $defarchivo){
                 if($documento==(string)$defarchivo['nombre'])
@@ -159,6 +174,7 @@ class DocumentosController extends AppController
             //no hay alias para el documento, documento es la ruta
             //return utf8_decode($dirbase.$dirpagina.$documento);
             //los espacios funcionan en iexplorer no en mozilla
+
             return $dirbase.$dirpagina.(string)$documento ;
             //return utf8_decode($dirbase.$dirpagina.(string)$documento) ;
             //return htmlentities($dirbase.$dirpagina.$documento);

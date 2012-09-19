@@ -31,6 +31,7 @@
 
     Router::connect('/defecto/*', array('controller' => 'defecto', 'action' => 'display'));
     Router::connect('/documentos', array('controller' => 'documentos', 'action' => 'index'));
+    Router::connect('/servirarchivo/*',array('controller'=>'documentos','action'=>'servirarchivo'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

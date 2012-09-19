@@ -1,61 +1,54 @@
 <?php
-$this->extend('/Comun/layoutdocumentos');
+$this->extend('/Comun/layoutdocumentos_nuevo');
 $this->start('menuprincipal');
-
-   $def_variables=array("aplicacion"=>WWW_ROOT,"definicionmenu"=>$definicionmenu);
-   echo $this->element('Documentos/elementodefinicionmenudinamico',$def_variables);
+    $nombreaplicacion=Configure::read("AplicacionWeb.nombre");
+   echo $this->element('Documentos/elementoMenu',array("nombreaplicacion"=>$nombreaplicacion));
 
 $this->end();
+
+
 
 $this->start('sliders');
+
    echo $this->element("Documentos/elementosliders",null);
+
+
 $this->end();
 
-      $this->Html->script('intraweb/milonic_src',array('block'=>'scriptarriba'));
-	  $this->Html->script('intraweb/mmenudom.js',array('block'=>'scriptarriba'));
 
-      $this->Html->script('intraweb/prototype',array('inline'=>false));
-      $this->Html->script('intraweb/scriptaculous',array('inline'=>false));
-	  $this->Html->script('intraweb/apple_core',array('inline'=>false));
-	  $this->Html->script('intraweb/browserdetect',array('inline'=>false));
-	  $this->Html->script('intraweb/event_mixins',array('inline'=>false));
-	  $this->Html->script('intraweb/drawers',array('inline'=>false));
-	  $this->Html->script('intraweb/codigosliders',array('inline'=>false));
+     $this->Html->script('intraweb2/jquery-1.8.1-min',array('inline'=>false));
+      $this->Html->script('intraweb2/jquery-ui',array('inline'=>false));
 
-	  $this->Html->css('intraweb/base',false,array('inline'=>false));
-      $this->Html->css('intraweb/nav',false,array('inline'=>false));
-      $this->Html->css('intraweb/mac',false,array('inline'=>false));
-      $this->Html->css('intraweb/hojaprincipal',false,array('inline'=>false));
+      $this->Html->script('intraweb2/jquery.hoveraccordion',array('inline'=>false));
+
+      echo $this->Html->css('intraweb/base',false,array('inline'=>false));
+      $this->Html->css('intraweb/trescolumnas',false,array('inline'=>false));
+      $this->Html->css('intraweb/hoveraccordion',false,array('inline'=>false));
+      $this->Html->css('Menu/menu',false,array('inline'=>false));
+
+
+
+
 
 ?>
 
 
-				<div class="column">
+           <div style="margin-top:30px;" >
 
-					<div id="videos" class="box">
-						<h2>Sin columna</h2>
-						<div align="center">
-						<p></p>
-                        <img src="<?php echo Helper::url('/').'img/intraweb/edificio-insti-mosaico-optima.jpg' ?>" width="550px">
-                        <p>
-						</FORM>
-                            <form>
-                                <input type="SUBMIT" value=" Aver&iacute;as inform&aacute;ticas "
+          <img src="<?php echo Helper::url('/').'img/intraweb/edificio-insti-mosaico-optima.jpg' ?>" width="550px">
+
+           <p>&nbsp;</p>
+           <div align="center">
+             <form>
+                 <input type="SUBMIT" value=" Aver&iacute;as inform&aacute;ticas "
                                        onclick="window.open('http://localhost:8080/servicios')"
-                                        onMouseOver="this.style.cursor='hand';"
-                                         >
+                                        onMouseOver="this.style.cursor='hand';" >
 
-                                        </form>
-                        </p>
-
-                        </div>
-						<div class="boxcap"></div>
-					</div>
-				</div>
-
-<?php
-
-			echo '<td width="190" bgcolor="#dee7ec">'.$columnalateral."</td>";
+            </form>
+        </div>
+        </div>
 
 
-?>
+
+
+
