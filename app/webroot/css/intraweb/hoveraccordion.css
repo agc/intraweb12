@@ -2,12 +2,12 @@
 #example2 {
     margin:0;
     padding:0;
-    width:300px;
+    width:200px;
     list-style-type:none;
      background-color:#ffffff;
     color:#000000;
     line-height:120%;
-    height:500px;
+    height:450px;
 }
 
 #example2 a.slider {
@@ -29,12 +29,12 @@
 }
 
 #example2 li a.slider {
-    width:285px;
+    width:185px;
     padding:5px 0 0 15px;
     display:block;
     color:#000000;
     background-image:url(ha-header.jpg);
-    height:25px;
+    height:15px;
 }
 
 

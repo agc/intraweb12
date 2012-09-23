@@ -19,7 +19,7 @@
 		<div id="main">
 		<div id="content" class="grid3cola">
 		    <?php
-		     echo $this->fetch('sliders');
+		         echo $this->fetch('sliders');
 			 echo $this->fetch('content');
 			 ?>
 		</div>
