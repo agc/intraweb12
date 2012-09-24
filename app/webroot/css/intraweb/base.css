@@ -14,6 +14,21 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 }
 
+#cabeceranoticias {
+    background: url('imagenes/whymac_headerbg3.png') no-repeat scroll 0 0 transparent;
+    height: 25px;
+}
+
+#cabeceracentral {
+    background: url('imagenes/videos_headerbg.png') no-repeat scroll 0 0 transparent;
+    height: 25px;
+}
+
+.cabeceraslider {
+    font-size:13px;
+    font-weight:bold;"
+}
+
 /* LAYOUT */
 .clear { clear:both; }
 .clearer { clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px; }

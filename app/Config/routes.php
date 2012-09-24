@@ -27,7 +27,7 @@
  */
 /* Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));*/
 
-    Router::connect('/', array('controller' => 'documentos', 'action' => 'index', 'error'));
+    Router::connect('/', array('controller' => 'documentos', 'action' => 'index'));
 
     Router::connect('/defecto/*', array('controller' => 'defecto', 'action' => 'display'));
     Router::connect('/documentos', array('controller' => 'documentos', 'action' => 'index'));

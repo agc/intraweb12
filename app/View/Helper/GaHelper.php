@@ -79,7 +79,7 @@ class GaHelper extends AppHelper
 
 
     function MostrarElementoTablaFormularioArchivosGestor($view){
-        $out= $view->element('gestorarchivos/elementotablaformularioarchivosgestor');
+        $out= $view->element('Gestorarchivos/elementotablaformularioarchivosgestor');
         return $out;
     }
 

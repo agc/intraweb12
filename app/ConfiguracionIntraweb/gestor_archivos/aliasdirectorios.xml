@@ -2,164 +2,103 @@
 
         <!-- alias usados en el controlador servirachivos-->
 <configarchivos>
-<!-- reglas para escribir correctamente este archivo atributo ruta y atributo directorio deben ir precedidos por / -->
-<!-- cuidado con los espacios en blanco despu�s y antes de las comillas-->
-<!-- hay un archivo howto-enlaces.txt que explica las diferentes combinaciones de enlaces y su relaci�n con este archivo-->
+<!-- reglas para escribir correctamente este archivo -->
+<!-- atributo ruta y atributo directorio deben ir precedidos por / -->
+<!-- cuidado con los espacios en blanco después y antes de las comillas-->
+<!-- hay un archivo howto-enlaces.txt que explica las diferentes combinaciones de enlaces y su relación con este archivo-->
 <!-- eliminar en el nombre los simbolos html para espacios, acentos, etc %20, por ejemplo -->
 <!-- se permiten acentos en los nombres de los archivos, espacios -->
 
-<!-- la ruta raiz donde se buscan los archivos est� definida en configuracion_general -->
-
-
-   <pagina nombre="pruebas" ruta="f:/intraweb-cake/" directorio="/pruebas"/>
-   <pagina nombre="blog"    ruta="f:/intraweb-cake/" directorio="/blog"/>
+<!-- la ruta raiz donde se buscan los archivos está definida en bootstrapintraweb.php -->
 
 
 
 
-   <pagina nombre="documentacion" directorio="administracion" >
-
-   </pagina>
-
-   <pagina nombre="varios" directorio="/varios">
-
-   </pagina>
-
-   <pagina nombre="cuadernodelprofesor" directorio="/cuaderno_del_profesor">
-
-
-   </pagina>
-
-   <pagina nombre="resultadosevaluaciones" directorio="/resultadosevaluaciones">
-
-   </pagina>
-
-
-      <!-- Los elementos pagina permiten especificar un alias para el directorio. La ruta se construye
-           mediante la ruta indicada en el elemento raiz y la ruta especificada en el atributo directorio del
-	   elemento pagina -->
-
-   <pagina nombre="calidad" directorio="/calidad">
-
-
-
-   </pagina>
-
-   <pagina nombre="direccion" directorio="/direccion">
-   </pagina>
-   
-   <pagina nombre="direccionpublico" directorio="/direccion/publico">
-   </pagina>
-   
-   <pagina nombre="direccionpga" directorio="/direccion/publico/DI-06-07/PGA 2006-2007">
-   </pagina>
-
-
-   <pagina nombre="jefaturaestudios" directorio="/jefaturaestudios">
-
-   </pagina>
-
-   <pagina nombre="vicedireccion" directorio="/vicedireccion">
-
-   </pagina>
-   <pagina nombre="secretaria" directorio="/secretaria">
-
-   </pagina>
-   <pagina nombre="especificacionescursos" directorio="/jefaturaestudios" />
 
    <!-- Paginas de departamentos -->
 
  <!-- Funciona si aqu� se pone con acentos y no con %%% -->
  <!-- En la p�gina vale de las dos maneras -->
-  <pagina nombre="progaleman" directorio="/programaciones/Aleman/programacion">
+
+    <pagina nombre="dat" directorio="/programaciones/DAT_Dpto_Accion_Tutorial/DAT_Publico">
+    </pagina>
+
+    <pagina nombre="al" directorio="/programaciones/AL_Aleman/AL_Publico">
 
    </pagina>
 
-   <pagina nombre="progciencias" directorio="/programaciones/Ciencias Naturales y Naturaleza/programacion">
+   <pagina nombre="cn" directorio="/programaciones/CN_Ciencias_Naturales/CN_Publico">
 
    </pagina>
 
+    <pagina nombre="cl" directorio="/programaciones/CL_Clasicas/CL_Publico">
+    </pagina>
 
-   <pagina nombre="progcienciassociales" directorio="/programaciones/Sociales/programaci�n"/>
+
+    <pagina nombre="di" directorio="/programaciones/Di_Dibujo/DI_Publico">
+    </pagina>
+
+    <pagina nombre="ec" directorio="/programaciones/EC_Economia/EC_Publico">
+    </pagina>
+
+    <pagina nombre="ef" directorio="/programaciones/EF_Educacion_Fisica/EF_Publico">
+    </pagina>
+
+    <pagina nombre="eu" directorio="/programaciones/EU_Euskera/EU_Publico">
+    </pagina>
+
+    <pagina nombre="fi" directorio="/programaciones/FI_Filosofia/FI_Publico">
+    </pagina>
+
+    <pagina nombre="fq" directorio="/programaciones/FQ_Fisica_y_Quimica/FQ_Publico">
+    </pagina>
+
+    <pagina nombre="fr" directorio="/programaciones/FR_Frances/FR_Publico">
+    </pagina>
+
+   <pagina nombre="gh" directorio="/programaciones/GH_Geografia_e_Historia/GH_Publico"/>
+
+    <pagina nombre="in" directorio="/programaciones/IN_Ingles/IN_Publico">
+    </pagina>
+
+    <pagina nombre="lg" directorio="/programaciones/LG_Lengua/LG_Publico">
+    </pagina>
+
+    <pagina nombre="ma" directorio="/programaciones/MA_Matematicas/MA_Publico">
+    </pagina>
+
+    <pagina nombre="mu" directorio="/programaciones/MU_Musica/MU_Publico">
+    </pagina>
+
+    <pagina nombre="or" directorio="/programaciones/OR_Orientacion/OR_Publico">
+    </pagina>
 
 
-   <pagina nombre="coordinacionacciontutorial" directorio="/programaciones/coordinacionacciontutorial/programaci�n">
+
+   <pagina nombre="re" directorio="/programaciones/RE_Religion/RE_Publico">
    </pagina>
 
-   <pagina nombre="progdibujo" directorio="/programaciones/Dibujo/programaci�n">
+   <pagina nombre="tc" directorio="/programaciones/TC_Tecnologia/TC_Publico">
    </pagina>
 
-   <pagina nombre="progeconomia" directorio="/programaciones/Economia/programaci�n">
-   </pagina>
-
-   <pagina nombre="progeducacionfisica" directorio="/programaciones/Educacion Fisica/programaci�n">
-   </pagina>
-
-   <pagina nombre="progeuskera" directorio="/programaciones/Euskera/programaci�n">
-   </pagina>
-
-   <pagina nombre="progfilosofia" directorio="/programaciones/Filosofia/programaci�n">
-   </pagina>
-
-   <pagina nombre="progfisicaquimica" directorio="/programaciones/Fisica y Quimica/programaci�n">
-   </pagina>
-
-   <pagina nombre="progfrances" directorio="/programaciones/Frances/programaci�n">
-   </pagina>
-
-   <pagina nombre="proggriego" directorio="/programaciones/Griego/programaci�n">
-   </pagina>
-
-   <pagina nombre="progingles" directorio="/programaciones/Ingles/programaci�n">
-   </pagina>
-
-   <pagina nombre="proglatin" directorio="/programaciones/Latin/programaci�n">
-   </pagina>
-
-   <pagina nombre="proglengua" directorio="/programaciones/Lengua/programaci�n">
-   </pagina>
-
-   <pagina nombre="progmatematicas" directorio="/programaciones/Matematicas/programación">
-   </pagina>
-
-   <pagina nombre="progmusica" directorio="/programaciones/Musica/programación">
-   </pagina>
-
-   <pagina nombre="progorientacion" directorio="/programaciones/Orientacion/programaci�n">
-   </pagina>
-
-   <pagina nombre="progreligion" directorio="/programaciones/Religion/programaci�n">
-   </pagina>
-
-   <pagina nombre="progtecnologia" directorio="/programaciones/Tecnologia/programaci�n">
-   </pagina>
-
-   <pagina nombre="claustros" directorio="/claustros">
-
-   </pagina>
-
-   <pagina nombre="biblioteca" directorio="/Biblioteca" >
-
-   </pagina>
 
 
 
    <!-- fin paginas de departamentos -->
    
-   <pagina nombre="grupos" directorio="/grupos" />
-   <pagina nombre="actasclaustro"  directorio="/Convocatorias_Actas/claustro" />
-   <pagina nombre="actasccp"  directorio="/Convocatorias_Actas/CCP" />
-   <pagina nombre="actasconsejo"  directorio="/Convocatorias_Actas/consejoescolar" />
-   <pagina nombre="resulacademicos" directorio="/Resultados/resultados_academicos"/>
-   <pagina nombre="resulencuestas" directorio="/Resultados/resultados_encuestas"/>
-   <pagina nombre="resulprocesos" directorio="/Resultados/resultados_procesos"/>
-   <pagina nombre="docgestion" directorio="/calidad" />
+
 
    <pagina nombre="caracteristicas del centro" directorio="/caracteristicas del centro" />
+
    <pagina nombre="documentos institucionales" directorio="/documentos institucionales" />
+
    <pagina nombre="sistema de gestion" directorio="/sistema de gestion" />
-   <pagina nombre="resultados" directorio="/resultados_nuevo" />
-   
+
+   <pagina nombre="resultados" directorio="/resultados" />
+
+   <pagina nombre="orgob" directorio="/organos_de_gobierno" />
+
+    <pagina nombre="equipos" directorio="/equipos_de_trabajo" />
 
 	
 

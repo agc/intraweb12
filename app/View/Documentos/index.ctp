@@ -35,8 +35,8 @@ $this->end();
 ?>
 
 
-           <div style="margin-top:30px;" >
-
+           <div style="margin-top:0px;" >
+           <h2 id="cabeceracentral">&nbsp;</h2>
           <img src="<?php echo Helper::url('/').'img/intraweb/edificio-insti-mosaico-optima.jpg' ?>" width="500px">
 
            <p>&nbsp;</p>

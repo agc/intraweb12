@@ -5,12 +5,12 @@
 <?php $altura=150*count($noticias); ?>
 <div class="column last sidebar">
 		<div id="whymac" class="box" style="height:<?php echo $altura?>px;width:180px">
-		 <h2>No borrar</h2>
+		 <h2 id="cabeceranoticias">&nbsp;</h2><!-- no borrar -->
 <?php  
 
 
 foreach($noticias as $noticia) {
-echo $this->element('noticias/elementocajanoticia',array("titulocaja" => $noticia->titulo,"textocaja"=>$noticia->texto));
+echo $this->element('Noticias/elementocajanoticia',array("titulocaja" => $noticia->titulo,"textocaja"=>$noticia->texto));
 } 
 ?>				
 <div class="boxcap"></div>

@@ -20,7 +20,7 @@ $(document).ready(function(){
 
    $('#example2').hoverAccordion({
                    keepHeight:true,
-                   activateItem: 1,
+                   activateItem: 2,
                    speed: 400
                });
     $('#example2').children('li:first').addClass('firstitem');

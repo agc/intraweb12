@@ -69,7 +69,7 @@ if($srt=="yes") {
 
 	<?php
 
-	echo $this->element('gestorarchivos/elementotablaarchivosgestor');
+	echo $this->element('Gestorarchivos/elementotablaarchivosgestor');
 
 	?>
 
